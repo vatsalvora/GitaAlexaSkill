@@ -1,0 +1,39 @@
+
+Name: 
+Gita
+
+Invocation Name: 
+
+gita
+
+Audio Player - Yes
+
+Configuration Page
+Endpoint - Put the ARN number of the AWS Lambda function
+
+For Reference: 
+
+Short Skill:
+Alexa can now sing the Bhagvad Gita. You can ask alexa to sing a particular verse, a chapter,  or the entire Gita.
+
+Full Skill Description:
+The Bhagvad Gita, Song Celestial, is now sung by Alexa. These verses were sung on the battlefield of the Kurukshetra 5,000 years ago. Lord Krishna sung these verses to free Arjun from his delusions and doubts about his duties. The Bhagvad Gita offers universal and timeless lessons to offer guidance in life. 
+
+Start Skill: Alexa Start Gita
+
+Alexa will sing the entire Gita: sing the entire Gita. 
+
+Alexa will sing a random verse: sing a verse.
+
+Alexa will sing a specific verse by specifying the verse number and chapter number.:  sing verse 5 of chapter 15. 
+
+Alexa will sing a specific chapter by specifying the chapter number: sing all of chapter 15
+
+Alexa will sing the entire Gita: sing all chapters
+
+Example Phrases:
+Alexa start Gita
+
+Sing Verse Fifteen Chapter Fifteen
+
+Sing All of Chapter Fifteen

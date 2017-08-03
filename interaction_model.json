@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NextIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PauseIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PreviousIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ResumeIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "SayVerseIntent",
+      "samples": [
+        "sing verse {versenum}  of chapter {chapternum} ",
+        "sing chapter {chapternum} verse {versenum} ",
+        "sing verse {versenum}  in chapter {chapternum}"
+      ],
+      "slots": [
+        {
+          "name": "versenum",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        },
+        {
+          "name": "chapternum",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "SingChapterIntent",
+      "samples": [
+        "sing all of chapter {chapternum} ",
+        "sing chapter {chapternum} "
+      ],
+      "slots": [
+        {
+          "name": "chapternum",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "SingGitaIntent",
+      "samples": [
+        "sing the entire gita",
+        "sing all of gita",
+        "sing all chapters"
+      ],
+      "slots": []
+    },
+    {
+      "name": "SingVerseIntent",
+      "samples": [
+        "sing a verse"
+      ],
+      "slots": []
+    }
+  ]
+}
